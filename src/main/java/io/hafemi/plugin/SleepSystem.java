@@ -25,8 +25,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-import static io.sentry.util.CollectionUtils.size;
-
 public class SleepSystem extends TickingSystem<EntityStore> {
     public static final HytaleLogger LOGGER = HytaleLogger.forEnclosingClass();
 
@@ -75,7 +73,7 @@ public class SleepSystem extends TickingSystem<EntityStore> {
     }
 
     private boolean canSkipNight(World world, List<Player> players) {
-        if (size(players) == 0) return false;
+        if (players.isEmpty()) return false;
         return !CanSleepInWorld.check(world).isNegative();
     }
 
