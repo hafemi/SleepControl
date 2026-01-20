@@ -1,4 +1,4 @@
-package io.hafemi.plugin;
+package io.hafemi.sleepcontrol;
 
 import com.hypixel.hytale.builtin.beds.sleep.resources.WorldSleep;
 import com.hypixel.hytale.builtin.beds.sleep.resources.WorldSlumber;

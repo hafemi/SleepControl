@@ -3,7 +3,7 @@
   "Name": "SleepControl",
   "Description": "Control how sleeping works on your Hytale Server.",
   "Version": "1.0.0",
-  "Main": "io.hafemi.plugin.SleepControl",
+  "Main": "io.hafemi.sleepcontrol.SleepControl",
   "Authors": [
     {
       "Name": "Hafemi"

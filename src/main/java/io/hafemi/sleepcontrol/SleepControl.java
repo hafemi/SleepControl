@@ -1,4 +1,4 @@
-package io.hafemi.plugin;
+package io.hafemi.sleepcontrol;
 
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
